@@ -1,4 +1,4 @@
-# Starter-Kit Symfony
+# Docker Symfony 6
 
 Starter-Kit Symfony 6 par Magle-corp.
 
@@ -16,8 +16,8 @@ Assurez-vous que les ports suivants sont disponibles :
 ## Installation
 
 ```shell
-git clone git@github.com:Magle-corp/Starter-Symfony-6.git
-cd Starter-Symfony-6
+git clone git@github.com:Magle-corp/Docker-Symfony-6.git
+cd Docker-Symfony-6
 cp .env.example .env && cp web/.env.example web/.env
 docker-compose up --build
 ```
