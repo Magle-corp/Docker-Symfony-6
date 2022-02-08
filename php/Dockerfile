@@ -37,3 +37,9 @@ RUN wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkh
 RUN a2enmod rewrite
 
 WORKDIR /var/www/
+
+COPY install.sh /web/install.sh
+
+RUN chmod +x /web/install.sh
+
+ENTRYPOINT ["/web/install.sh"]
