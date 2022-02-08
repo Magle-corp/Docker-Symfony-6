@@ -19,7 +19,7 @@ Assurez-vous que les ports suivants sont disponibles :
 git clone git@github.com:Magle-corp/Starter-Symfony-6.git
 cd Starter-Symfony-6
 cp .env.example .env && cp web/.env.example web/.env
-docker-composer up --build
+docker-compose up --build
 ```
 
 - Symfony app disponible [http://localhost:9074](http://localhost:9074)
