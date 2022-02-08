@@ -1,6 +1,6 @@
 # Starter-Kit Symfony
 
-Starter-Kit par Magle-corp.
+Starter-Kit Symfony 6 par Magle-corp.
 
 🎼 Symfony 6  🚀 PHP 8   🏗 MySQL  📋 PhpMyAdmin  🐋 Docker
 
