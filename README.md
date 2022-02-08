@@ -11,7 +11,7 @@ ___
 Assurez-vous que les ports suivants sont disponibles :
 - 3306 - MySQL
 - 8081 - PhpMyAdmin
-- 9074 - Symfony
+- 8080 - Symfony
 
 ## Installation
 
@@ -22,5 +22,5 @@ cp .env.example .env && cp web/.env.example web/.env
 docker-compose up --build
 ```
 
-- Symfony app disponible [http://localhost:9074](http://localhost:9074)
+- Symfony app disponible [http://localhost:8080](http://localhost:8080)
 - PhpMyAdmin disponible [http://localhost:8081](http://localhost:8081)
